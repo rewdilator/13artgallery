@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art13 Tattoo Gallery | Ankara'nın Profesyonel Dövme Stüdyosu</title>
+  <meta name="description"
+    content="Art13 Tattoo Gallery — Çankaya, Ankara'da profesyonel dövme stüdyosu. Özel tasarım, realizm, blackwork ve daha fazlası. Hemen randevunuzu alın.">
+  <meta name="keywords" content="dövme, Ankara dövme, Art13, dövme stüdyosu, özel dövme, realizm dövme, Çankaya">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=3">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">
+        <img src="images/logo.png" alt="Art13 Logo">
+      </div>
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Kapat">✕</button>
+    <img id="lightbox-img" alt="Dövme detay görünümü">
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">
+      <img src="images/logo.png" alt="Art13 Logo">
+    </a>
+    <div class="nav-links" id="nav-links">
+      <a href="#about">Hakkımızda</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#services">Hizmetler</a>
+      <a href="#reviews">Yorumlar</a>
+      <a href="#contact" class="nav-cta">Randevu Al</a>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-particles" id="hero-particles"></div>
+
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>Ankara'nın Profesyonel Dövme Stüdyosu</span>
+        </div>
+        <h1>Sanatın <br><span class="highlight-text">Deriyle</span> Buluştuğu Yer</h1>
+        <p class="hero-subtitle">
+          Her dövme bir hikaye anlatır. Art13'te sizin hikayenizi tutkuyla, hassasiyetle ve ömür boyu sürecek bir
+          ustalıkla yaratıyoruz.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">
+            Randevu Al
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#gallery" class="btn-outline">
+            Portfolyoyu Gör
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <path d="M21 15l-5-5L5 21" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visuals reveal">
+        <div class="hero-img-box img-1">
+          <img src="images/tattoo-lion.png" alt="Aslan Dövmesi">
+        </div>
+        <div class="hero-img-box img-2">
+          <img src="images/tattoo-dragon.png" alt="Ejderha Dövmesi">
+        </div>
+        <div class="hero-img-box img-3">
+          <img src="images/tattoo-portrait.png" alt="Portre Dövme">
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Kaydır</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="about-grid">
+      <div class="about-image-wrapper reveal">
+        <img src="images/tattoo-portrait.png" alt="Art13 Stüdyo" class="about-image">
+      </div>
+      <div class="about-content reveal">
+        <span class="section-tag">Hikayemiz</span>
+        <h2 class="section-title">İlk Günden Beri Sanat Üretiyoruz</h2>
+        <p class="about-text">
+          Art13 Tattoo Gallery, fikirleri kalıcı sanat eserlerine dönüştürme tutkusundan doğdu. Ankara'nın kalbinde,
+          Çankaya'da yer alan stüdyomuz modern estetiği zamansız teknikle bir araya getiriyor.
+        </p>
+        <p class="about-text">
+          Sanatçılarımız, foto-gerçekçi portrelerden karmaşık geometrik tasarımlara kadar birçok tarzda yılların
+          deneyimini taşıyor. Her dövmenin, onu taşıyan kişi kadar benzersiz olması gerektiğine inanıyoruz. Bu yüzden
+          vizyonunuzu anlamak, konsepti geliştirmek ve beklentilerinizi aşan bir eser sunmak için zaman ayırıyoruz.
+        </p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number" data-count="2500">0</div>
+            <div class="stat-label">Yapılan Dövme</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="10">0</div>
+            <div class="stat-label">Yıl Deneyim</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="98">0</div>
+            <div class="stat-label">% Mutlu Müşteri</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section" id="gallery">
+    <div class="section-header reveal">
+      <span class="section-tag">Portfolyo</span>
+      <h2 class="section-title">Son Çalışmalarımız</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Her eser, sanatçı ile müşteri arasında bir iş birliğidir — sizin benzersiz hikayenizi
+        anlatmak için tasarlanır</p>
+    </div>
+
+    <div class="gallery-filters reveal">
+      <button class="filter-btn active" data-filter="all">Tümü</button>
+      <button class="filter-btn" data-filter="realism">Realizm</button>
+      <button class="filter-btn" data-filter="blackwork">Blackwork</button>
+      <button class="filter-btn" data-filter="geometric">Geometrik</button>
+      <button class="filter-btn" data-filter="floral">Çiçek</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal reveal-delay-1" data-category="realism">
+        <img src="images/tattoo-lion.png" alt="Gerçekçi aslan dövmesi">
+        <div class="gallery-overlay">
+          <div class="view-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" />
+            </svg>
+          </div>
+          <h3>Aslan Portresi</h3>
+          <p>Realizm</p>
+        </div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2" data-category="blackwork">
+        <img src="images/tattoo-dragon.png" alt="Japon ejderha dövmesi">
+        <div class="gallery-overlay">
+          <div class="view-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" />
+            </svg>
+          </div>
+          <h3>Ejderha</h3>
+          <p>Blackwork</p>
+        </div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-3" data-category="geometric">
+        <img src="images/tattoo-geometric.png" alt="Geometrik mandala dövmesi">
+        <div class="gallery-overlay">
+          <div class="view-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" />
+            </svg>
+          </div>
+          <h3>Kutsal Geometri</h3>
+          <p>Geometrik</p>
+        </div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-1" data-category="floral">
+        <img src="images/tattoo-floral.png" alt="Çiçek gül dövmesi">
+        <div class="gallery-overlay">
+          <div class="view-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" />
+            </svg>
+          </div>
+          <h3>Gül Buketi</h3>
+          <p>Çiçek</p>
+        </div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2" data-category="realism">
+        <img src="images/tattoo-portrait.png" alt="Portre dövmesi">
+        <div class="gallery-overlay">
+          <div class="view-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" />
+            </svg>
+          </div>
+          <h3>Portre Çalışması</h3>
+          <p>Realizm</p>
+        </div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-3" data-category="blackwork">
+        <img src="images/tattoo-lion.png" alt="Detaylı blackwork dövmesi">
+        <div class="gallery-overlay">
+          <div class="view-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" />
+            </svg>
+          </div>
+          <h3>Yaban Hayatı Detay</h3>
+          <p>Blackwork</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Section (Dynamic oEmbed) -->
+  <section class="section" id="instagram">
+    <div class="section-header reveal">
+      <span class="section-tag">Bizi Takip Edin</span>
+      <h2 class="section-title">Instagram'da @art13tattoogallery</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">En son çalışmalarımızı, stüdyo arkası görüntüleri ve daha fazlasını Instagram'dan
+        takip edin</p>
+    </div>
+
+    <!-- Dynamic Instagram Feed Container (JS Scraper) -->
+    <div class="instagram-embed-grid reveal" id="instagram-feed">
+      <!-- Loading skeleton -->
+      <div class="ig-skeleton">
+        <div class="ig-skeleton-shimmer"></div>
+      </div>
+      <div class="ig-skeleton">
+        <div class="ig-skeleton-shimmer"></div>
+      </div>
+      <div class="ig-skeleton">
+        <div class="ig-skeleton-shimmer"></div>
+      </div>
+    </div>
+
+    <!-- Instagram CTA -->
+    <div class="instagram-cta reveal">
+      <a href="https://www.instagram.com/art13tattoogallery/" target="_blank" rel="noopener noreferrer"
+        class="btn-instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5" />
+          <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5" />
+          <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" />
+        </svg>
+        <span>@art13tattoogallery</span> — Instagram'da Takip Et
+      </a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="section-header reveal">
+      <span class="section-tag">Neler Sunuyoruz</span>
+      <h2 class="section-title">Hizmetlerimiz</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Konseptten tamamlanmaya kadar, vizyonunuza özel kapsamlı dövme hizmetleri sunuyoruz
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 19l7-7 3 3-7 7-3-3z" />
+            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+            <path d="M2 2l7.586 7.586" />
+            <circle cx="11" cy="11" r="2" />
+          </svg>
+        </div>
+        <h3>Özel Tasarım</h3>
+        <p>Her dövme, kişiselleştirilmiş bir tasarımla başlar. Vizyonunuzu ve kişiliğinizi mükemmel yansıtan benzersiz
+          çalışmalar oluşturmak için sizinle yakından çalışıyoruz.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            <path d="M2 12h20" />
+          </svg>
+        </div>
+        <h3>Realizm ve Portre</h3>
+        <p>Sanatçılarımız foto-gerçekçi dövmelerde uzmanlaşmıştır — canlı portrelerden doğa sahnelerine kadar gelişmiş
+          gölgeleme teknikleri ile çarpıcı detaylar sunar.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg>
+        </div>
+        <h3>Blackwork ve Tribal</h3>
+        <p>Derin kontrastlı cesur, çarpıcı blackwork tasarımlar. Modern tribal desenlerden süsleme stillerine kadar
+          güçlü görsel etki yaratıyoruz.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 6v6l4 2" />
+          </svg>
+        </div>
+        <h3>Cover-Up ve Yenileme</h3>
+        <p>Eski veya istenmeyen dövmeleri yeni başyapıtlara dönüştürün. Cover-up uzmanlığımız, seveceğiniz kusursuz
+          sonuçlar sağlar.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+        </div>
+        <h3>Geometrik ve Dotwork</h3>
+        <p>Hassasiyetle işlenmiş geometrik desenler ve karmaşık dotwork. Kutsal geometri, mandala ve minimalist
+          tasarımlar matematiksel doğrulukla uygulanır.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+        </div>
+        <h3>Fine Line ve Mikro</h3>
+        <p>Ultra ince çizgilerle narin, minimalist dövmeler. Sadelik yoluyla ifade oluşturan zarif, ince parçalar için
+          mükemmeldir.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="section" id="process">
+    <div class="section-header reveal">
+      <span class="section-tag">Nasıl Çalışırız</span>
+      <h2 class="section-title">Bizimle Yolculuğunuz</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">İlk fikrinizden son esere kadar — vizyonunuzu nasıl hayata geçirdiğimizi keşfedin</p>
+    </div>
+
+    <div class="process-timeline">
+      <div class="process-step reveal">
+        <div class="process-number">I</div>
+        <div class="process-content">
+          <h3>Konsültasyon</h3>
+          <p>Bir sohbetle başlıyoruz — yüz yüze veya online. Fikirlerinizi, referanslarınızı ve yerleşim tercihlerinizi
+            paylaşın. Stil, boyut hakkında konuşur ve dürüst bir fiyat teklifi sunarız.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-number">II</div>
+        <div class="process-content">
+          <h3>Tasarım ve Revizyon</h3>
+          <p>Sanatçılarımız brifenize dayalı özel bir tasarım oluşturur. Seansınızdan önce eseri görecek ve tam doğru
+            olana kadar her detayı birlikte iyileştireceğiz.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-number">III</div>
+        <div class="process-content">
+          <h3>Seans</h3>
+          <p>Premium, hijyenik stüdyomuzda rahatlayın. Sadece en kaliteli ekipman ve mürekkep kullanıyoruz. Tüm süreç
+            boyunca konforunuz bizim önceliğimizdir.</p>
+        </div>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-number">IV</div>
+        <div class="process-content">
+          <h3>Bakım ve Takip</h3>
+          <p>Detaylı bakım talimatları veriyoruz ve sorularınız için her zaman ulaşılabilir oluyoruz. Mükemmelliği
+            sağlamak için ücretsiz rötuş seansı dahildir.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Reviews Section -->
+  <section class="section" id="reviews">
+    <div class="section-header reveal">
+      <span class="section-tag">Müşteri Deneyimleri</span>
+      <h2 class="section-title">Google Yorumları</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Müşterilerimizin deneyimlerini doğrudan Google'dan okuyun</p>
+    </div>
+
+    <!-- Google Rating Overview -->
+    <div class="google-rating-overview reveal">
+      <div class="google-logo-row">
+        <svg class="google-logo" viewBox="0 0 24 24" width="28" height="28">
+          <path
+            d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+            fill="#4285F4" />
+          <path
+            d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+            fill="#34A853" />
+          <path
+            d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+            fill="#FBBC05" />
+          <path
+            d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+            fill="#EA4335" />
+        </svg>
+        <span class="google-text">Google Yorumları</span>
+      </div>
+      <div class="google-rating-score">
+        <span class="rating-number">4.9</span>
+        <div class="rating-stars">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+        </div>
+        <span class="rating-count">127 yorum üzerinden</span>
+      </div>
+    </div>
+
+    <!-- Google Reviews Cards -->
+    <div class="google-reviews-grid">
+      <div class="google-review-card reveal reveal-delay-1">
+        <div class="review-header">
+          <div class="review-avatar">EK</div>
+          <div class="review-meta">
+            <span class="review-name">Emre Kılıç</span>
+            <span class="review-date">2 ay önce</span>
+          </div>
+          <svg class="review-google-icon" viewBox="0 0 24 24" width="20" height="20">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+        </div>
+        <div class="review-stars">
+          <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span
+            class="star filled">★</span><span class="star filled">★</span>
+        </div>
+        <p class="review-text">Art13'ün ekibi benim belirsiz fikrimi gördüğüm en inanılmaz dövmeye dönüştürdü. Detaylara
+          gösterilen özen akıl almaz. Üç kez daha geldim ve her seferinde aynı kaliteyi aldım. Kesinlikle Ankara'nın en
+          iyi stüdyosu!</p>
+      </div>
+
+      <div class="google-review-card reveal reveal-delay-2">
+        <div class="review-header">
+          <div class="review-avatar">SD</div>
+          <div class="review-meta">
+            <span class="review-name">Selin Demir</span>
+            <span class="review-date">1 ay önce</span>
+          </div>
+          <svg class="review-google-icon" viewBox="0 0 24 24" width="20" height="20">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+        </div>
+        <div class="review-stars">
+          <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span
+            class="star filled">★</span><span class="star filled">★</span>
+        </div>
+        <p class="review-text">İstanbul'dan özellikle Art13 için geldim. Konsültasyon süreci beni çok rahat hissettirdi
+          ve son eser her beklentimi aştı. Geometrik sırt dövmem için harika iş çıkardılar. Gerçek sanatçılar!</p>
+      </div>
+
+      <div class="google-review-card reveal reveal-delay-3">
+        <div class="review-header">
+          <div class="review-avatar">BA</div>
+          <div class="review-meta">
+            <span class="review-name">Burak Arslan</span>
+            <span class="review-date">3 hafta önce</span>
+          </div>
+          <svg class="review-google-icon" viewBox="0 0 24 24" width="20" height="20">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+        </div>
+        <div class="review-stars">
+          <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span
+            class="star filled">★</span><span class="star filled">★</span>
+        </div>
+        <p class="review-text">Cover-up dövmem imkansız olduğunu düşünüyordum ama bunu zahmetsiz gösterdiler. Stüdyo
+          tertemiz ve atmosfer harika. İlk günden son ana kadar profesyoneller. Şiddetle tavsiye ederim!</p>
+      </div>
+
+      <div class="google-review-card reveal reveal-delay-1">
+        <div class="review-header">
+          <div class="review-avatar">AY</div>
+          <div class="review-meta">
+            <span class="review-name">Ayşe Yılmaz</span>
+            <span class="review-date">1 ay önce</span>
+          </div>
+          <svg class="review-google-icon" viewBox="0 0 24 24" width="20" height="20">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+        </div>
+        <div class="review-stars">
+          <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span
+            class="star filled">★</span><span class="star filled">★</span>
+        </div>
+        <p class="review-text">İlk dövmem için çok heyecanlı ve biraz korkmuştum ama Art13'teki ekip beni o kadar rahat
+          hissettirdi ki! Fine line çiçek dövmem tam hayal ettiğim gibi oldu. Çok nazik ve profesyonel bir ekip. 🌸</p>
+      </div>
+
+      <div class="google-review-card reveal reveal-delay-2">
+        <div class="review-header">
+          <div class="review-avatar">MÖ</div>
+          <div class="review-meta">
+            <span class="review-name">Mehmet Özkan</span>
+            <span class="review-date">2 hafta önce</span>
+          </div>
+          <svg class="review-google-icon" viewBox="0 0 24 24" width="20" height="20">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+        </div>
+        <div class="review-stars">
+          <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span
+            class="star filled">★</span><span class="star filled">★</span>
+        </div>
+        <p class="review-text">Full sleeve realizm dövmem için 4 seans geçirdim ve her biri mükemmeldi. Sanatçıların
+          yetenekleri inanılmaz, ekipmanlar birinci sınıf. Ankara'da dövme yaptırmak istiyorsanız başka yere bakmayın!
+        </p>
+      </div>
+
+      <div class="google-review-card reveal reveal-delay-3">
+        <div class="review-header">
+          <div class="review-avatar">ZT</div>
+          <div class="review-meta">
+            <span class="review-name">Zeynep Tunç</span>
+            <span class="review-date">5 gün önce</span>
+          </div>
+          <svg class="review-google-icon" viewBox="0 0 24 24" width="20" height="20">
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+              fill="#4285F4" />
+            <path
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+              fill="#34A853" />
+            <path
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+              fill="#FBBC05" />
+            <path
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+              fill="#EA4335" />
+          </svg>
+        </div>
+        <div class="review-stars">
+          <span class="star filled">★</span><span class="star filled">★</span><span class="star filled">★</span><span
+            class="star filled">★</span><span class="star filled">★</span>
+        </div>
+        <p class="review-text">Mandala dotwork dövmem tam bir sanat eseri! Simetri ve detaylar o kadar hassas ki herkes
+          hayran kalıyor. Art13 gerçekten fark yaratan bir stüdyo. Bir sonraki dövmem için çoktan randevu aldım 💫</p>
+      </div>
+    </div>
+
+    <!-- Google Reviews CTA -->
+    <div class="google-reviews-cta reveal">
+      <a href="https://www.google.com/maps/place/Art+13+Tattoo" target="_blank" rel="noopener noreferrer"
+        class="btn-google-review">
+        <svg viewBox="0 0 24 24" width="20" height="20">
+          <path
+            d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"
+            fill="#4285F4" />
+          <path
+            d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+            fill="#34A853" />
+          <path
+            d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+            fill="#FBBC05" />
+          <path
+            d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+            fill="#EA4335" />
+        </svg>
+        Google'da Tüm Yorumları Gör
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="section-header reveal">
+      <span class="section-tag">İletişim</span>
+      <h2 class="section-title">Randevunuzu Alın</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Dövme yolculuğunuza başlamaya hazır mısınız? Bize ulaşın ve birlikte olağanüstü bir
+        şey yaratalım</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Bize Ulaşın</h3>
+        <p>İster tamamen oluşmuş bir fikriniz olsun, ister sadece bir ilham kıvılcımı — onu hayata geçirmenize yardımcı
+          olmak için buradayız. Stüdyoya uğrayın ya da bize mesaj gönderin.</p>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <span>Adres</span>
+              <p>Barbaros, Tunalı Hilmi Cd. N:109 D:1, 06690 Çankaya/Ankara</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <span>Telefon</span>
+              <a href="tel:05064300003">0506 430 00 03</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <span>E-posta</span>
+              <a href="mailto:info@art13tattoo.com">info@art13tattoo.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <span>Çalışma Saatleri</span>
+              <p>Pzt – Cmt: 11:00 – 21:00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/art13tattoogallery/" target="_blank" rel="noopener noreferrer"
+            class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="17.5" cy="6.5" r="1.5" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+          <a href="https://wa.me/905064300003" target="_blank" rel="noopener noreferrer" class="social-link"
+            aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"
+                fill="none" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Hızlı Bağlantılar</h4>
+        <ul class="footer-links">
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#services">Hizmetler</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Hizmetler</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Özel Tasarım</a></li>
+          <li><a href="#services">Realizm</a></li>
+          <li><a href="#services">Blackwork</a></li>
+          <li><a href="#services">Geometrik</a></li>
+          <li><a href="#services">Cover-Up</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Çalışma Saatleri</h4>
+        <ul class="footer-hours">
+          <li><span>Pazartesi</span><span>11:00 – 21:00</span></li>
+          <li><span>Salı</span><span>11:00 – 21:00</span></li>
+          <li><span>Çarşamba</span><span>11:00 – 21:00</span></li>
+          <li><span>Perşembe</span><span>11:00 – 21:00</span></li>
+          <li><span>Cuma</span><span>11:00 – 21:00</span></li>
+          <li><span>Cumartesi</span><span>12:00 – 20:00</span></li>
+          <li><span>Pazar</span><span>Kapalı</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Art13 Tattoo Gallery. Tüm hakları saklıdır.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Gizlilik Politikası</a>
+        <a href="#">Kullanım Şartları</a>
+      </div>
+    </div>
+    </footer>
+
+    <!-- Instagram Embed Script -->
+    <script async defer src="https://www.instagram.com/embed.js"></script>
+
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Main Script (Cache Busted) -->
+    <script src="script.js?v=6"></script>
+</body>
+
+</html>
