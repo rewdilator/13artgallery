@@ -208,7 +208,7 @@ function initInstagramEmbeds() {
   if (!feedContainer) return;
 
   // The 3 latest post IDs (You can update these manually whenever you share a new post)
-  const shortcodes = ['DaXp2WTNuJr', 'DPUSpxhjSe7', 'DOQnH-_DWxn'];
+  const shortcodes = ['DaXqmSeNCJf', 'DaXp2WTNuJr', 'DYQq001oebj'];
   feedContainer.innerHTML = ''; // Clear skeleton
 
   // Render the posts
@@ -222,7 +222,7 @@ function initInstagramEmbeds() {
     `;
     feedContainer.insertAdjacentHTML('beforeend', embedHtml);
   });
-  
+
   if (window.instgrm) {
     window.instgrm.Embeds.process();
   }
