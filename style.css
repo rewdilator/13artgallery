@@ -1475,11 +1475,7 @@ ul {
   }
   
   .nav-links a {
-    font-size: 1.5rem;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    text-align: center;
+    font-size: 1.2rem;
   }
   
   .gallery-grid {
@@ -1551,6 +1547,17 @@ ul {
   .footer-hours {
     max-width: 300px;
     margin: 0 auto;
+  }
+}
+
+/* Touch Device Gallery UX (Always show text, hide hover icon) */
+@media (hover: none) {
+  .gallery-overlay {
+    opacity: 1 !important;
+    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.9) 100%) !important;
+  }
+  .gallery-overlay .view-icon {
+    display: none !important;
   }
 }
 
